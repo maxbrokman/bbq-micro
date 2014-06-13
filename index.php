@@ -21,25 +21,38 @@
 	    <div id="container-inner">
             <div id="main" class="clearfix">
                 <header class="fivecol first" id="">
-                    <h1><img width="170" height="120" title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
+                    <h1><img title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
                 </header>
-                <section class="section sevencol last " id="album-artwork">
+                <!--<section class="section sevencol last " id="album-artwork">
                     <img alt="Album Artwork Front" src="images/artwork_front.jpg" title="Album Artwork Front" />
                     <p>Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>
-                    <div class="more">
+                    <!--<div class="more">
                         Listen to the album, watch videos and more! <br /> &#47;
-                    </div>
-                </section>
+                    </div>-->
+                <!--</section>-->
                 <div id="sidebar" class="fivecol first fix">
-                    <h2 class="spatula center">Tour Dates</h2>
-                    <!--<section class="section no-border clearfix major-announce">
+
+                    <section class="section burgerguy-bg">
+                        <div class="">
+                            <p>Dirtybird is taking it's legendary BBQ party on the road! Do not miss what promises to be one of the most down to earth, fun parties of the year. There will be minimum fist pumping & maximum booty shaking so come have a great time outside with your friends.</p>
+                            <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada.</p>
+                            <p>Line-ups are different in every city and include a few special guest surprises.</p>
+                        </div>
+                    </section>
+                    <h2 class="spatula-sandwich center">Tour Dates</h2>
+                    <section class="section no-border clearfix major-announce">
+                        <div class="tourlogo-bg container-fill">
+
+                        </div>
+                        <h4 class="city-name">Brooklyn, NY - 8/17/14</h4>
                         <div class="headliners">
                             <div class="headliner">Claude VonStroke</div>
-                            <div class="headliner">Justin Martin, Eats Everything</div>
-                            <div class="headliner">Catz 'n Dogz</div>
-                            <div class="headliner special">+special guest Just Blaze</div>
+                            <div class="headliner">Justin Martin</div>
+                            <div class="headliner">J. Phlip, Kill Franzy</div>
+                            <div class="headliner">Christian Martin, Justin Jay</div>
+                            <div class="headliner special">+special surprise guests!</div>
                         </div>
-                        <div class="lineup">
+                        <!--<div class="lineup">
                             <span class="act">J. Phlip &#8211;</span>
                             <span class="act">Christian Martin &#8211;</span>
                             <span class="act">Kill Frenzy &#8211;</span>
@@ -48,21 +61,14 @@
                             <span class="act">Nick Olivetti</span> &#8211;
                             <span class="act">Chef Grillson</span>
                             <span class="act">&#43; surprise guests!
-                        </div>
+                        </div>-->
                         <div class="details">
-                            March 27th<br />
-                            Doors 2PM - 4AM<br />
-                            Day &amp; Night party with Chef Grillson BBQ until 7pm<br />
-                            Cafeina Wynwood Lounge 297 NW 23rd St.<br /><span class="protocol">Miami, FL 33127</span><br />
-                            <span class="protocol">Free BBQ while supplies last!</span><br />
+                            August 17th<br />
+                            StageOneSpace<br />
+                            <span class="protocol">Brooklyn, NY</span><br />
                         </div>
                         <div class="tickets">
-                           <a href="http://www.ticketfly.com/event/482023-dirtybird-bbq-miami/" class="ticket-link">Tickets</a> 
                         </div>
-                    </section>-->
-                    <section class="section">
-                        <p>Copy block here</p>
-
                     </section>
                     <!--<section class="section pictures">
                         <?php /*
@@ -81,39 +87,25 @@
                             }
                         */ ?>
                     </section>-->
-                    <h2 class="spatula-sandwich center">Lineups announced June 10th</h2>
+                    <h2 class="spatula-sandwich center">Tickets on Sale September 24th</h2>
                     <section class="section clearfix" id="tour-dates">
-                       <!-- <h2 class="tickets-header mobile-hide">Tour Dates</h2> -->
-                        
-                        <!--<div class="tour-dates-table-wrap major">
-                            <div class="tour-date-box">27th Mar 2014</div>
-                            <div class="tour-dates-table clearfix">
-                                <div class="next">next&#33;</div>
-                                <a>
-                                    <div class="city">
-                                        <h4 class="city-name">Miami</h4>
-                                    </div>
-                                    <div class="details">
-                                        <span class="venue">
-                                           Cafeina Wynwood Lounge
-                                        </span>
-                                        <span class="lineup">
-                                            Claude VonStroke, Justin Martin, Eats Everything, Catz 'n Dogz, special guest Just Blaze, +more
-                                        </span>
-                                    </div> 
-                                    <div class="tickets"><a href="http://www.ticketfly.com/event/482023-dirtybird-bbq-miami/" class="ticket-link">Tickets</a></div>
-                                </a>
-                            </div>
-                        </div>-->
                         <div class="tour-dates-table-wrap major">
                             <div class="tour-date-box">17th August 2014</div>
                             <div class="tour-dates-table clearfix">
                                 <div class="city">
                                     <h4 class="city-name">Brooklyn, NY</h4>
                                 </div>
-                                <div class="details">
+                                <div class="details no-ticket">
                                     <span class="venue">StageOne Space</span>
-                                    <span class="lineup"></span>
+                                    <span class="lineup">
+                                        Claude VonStroke &#8211;
+                                        Justin Martin &#8211;
+                                        J. Phlip &#8211;
+                                        Kill Frenzy &#8211;
+                                        Christian Martin &#8211;
+                                        Justin Jay
+                                        + special surprise guests
+                                    </span>
                                 </div>
                                 <div class="tickets"></div>
                             </div>
@@ -124,9 +116,15 @@
                                 <div class="city">
                                     <h4 class="city-name">Detroit, MI</h4>
                                 </div>
-                                <div class="details">
+                                <div class="details no-ticket">
                                     <span class="venue">Masonic Temple Lot</span>
-                                    <span class="lineup"></span>
+                                    <span class="lineup">
+                                        Claude VonStroke &#8211;
+                                        Justin Martin &#8211;
+                                        J. Phlip &#8211;
+                                        Kill Frenzy &#8211;
+                                        Christian Martin
+                                    </span>
                                 </div>
                                 <div class="tickets"></div>
                             </div>
@@ -137,9 +135,16 @@
                                 <div class="city">
                                     <h4 class="city-name">Toronto, ON</h4>
                                 </div>
-                                <div class="details">
+                                <div class="details no-ticket">
                                     <span class="venue">Sherbourne Common</span>
-                                    <span class="lineup"></span>
+                                    <span class="lineup">
+                                        Claude VonStroke &#8211;
+                                        Justin Martin &#8211;
+                                        J. Phlip &#8211;
+                                        Kill Frenzy &#8211;
+                                        Christian Martin &#8211;
+                                        Justin Jay
+                                    </span>
                                 </div>
                                 <div class="tickets"></div>
                             </div>
@@ -150,9 +155,17 @@
                                 <div class="city">
                                     <h4 class="city-name">San Francisco, CA</h4>
                                 </div>
-                                <div class="details">
+                                <div class="details no-ticket">
                                     <span class="venue">Treasure Island</span>
-                                    <span class="lineup"></span>
+                                    <span class="lineup">
+                                        Claude VonStroke &#8211;
+                                        Justin Martin &#8211;
+                                        J. Phlip &#8211;
+                                        Kill Frenzy &#8211;
+                                        Christian Martin &#8211;
+                                        Worth
+                                        + special surprise guests
+                                    </span>
                                 </div>
                                 <div class="tickets"></div>
                             </div>
@@ -171,8 +184,7 @@
                 </div>
                 <section class="section sevencol last " id="audio-preview">
                     <p class="mobile-only">Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>
-                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21235376%3Fsecret_token%3Ds-ooB27&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
-                </section>
+                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21235376&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>                </section>
                 <section class="section background sevencol last " id="release-description">
                     <div class="background">
                     <p>The new dirtybird compilation is loaded with 11 great tunes I have been collecting for over 6 months. Most notably, the Shiba San "OKAY" record has absolutely been destroying every dance floor known to man. We have lots of big birds like Justin Martin, Catz ‘N Dogz & Justin Jay on this, plus a ton of great newcomers and friends making appearances.</p>
