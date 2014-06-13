@@ -600,7 +600,7 @@ p {
   text-shadow: rgba(3, 21, 41, 0.25) 0px 0px 1em;
 }
 .intro-text p {
-  font-size: 120%;
+  font-size: 128%;
 }
 .center {
   text-align: center;
@@ -750,7 +750,7 @@ img {
 }
 .burgerguy-bg {
   background: url("../images/burgerguy.png") no-repeat bottom right;
-  background-size: 25% auto;
+  background-size: 31% auto;
 }
 .tourlogo-bg {
   opacity: 0.1;

@@ -33,7 +33,7 @@
                 <div id="sidebar" class="fix">
 
                     <section class="section intro-text burgerguy-bg clearfix">
-                        <div class="ninecol first">
+                        <div class="eightcol first">
                             <p>Dirtybird is taking it's legendary BBQ party on the road! Do not miss what promises to be one of the most down to earth, fun parties of the year. There will be minimum fist pumping & maximum booty shaking so come have a great time outside with your friends.</p>
                             <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada.</p>
                             <p class="no-bottom-margin">Line-ups are different in every city and include a few special guest surprises.</p>
@@ -52,16 +52,6 @@
                             <div class="headliner">Christian Martin, Justin Jay</div>
                             <div class="headliner special">+special surprise guests!</div>
                         </div>
-                        <!--<div class="lineup">
-                            <span class="act">J. Phlip &#8211;</span>
-                            <span class="act">Christian Martin &#8211;</span>
-                            <span class="act">Kill Frenzy &#8211;</span>
-                            <span class="act">Justin Jay &#8211;</span>
-                            <span class="act">Nick Monaco &#8211;</span>
-                            <span class="act">Nick Olivetti</span> &#8211;
-                            <span class="act">Chef Grillson</span>
-                            <span class="act">&#43; surprise guests!
-                        </div>-->
                         <div class="details">
                             12:00pm - 10:00pm<br />
                             August 17th<br />
@@ -89,29 +79,7 @@
                             }
                         */ ?>
                     </section>-->
-                    <h2 class="spatula-sandwich center">Tickets on Sale September 24th</h2>
-                    <section class="section clearfix" id="tour-dates">
-                        <div class="tour-dates-table-wrap major">
-                            <div class="tour-date-box">17th August 2014</div>
-                            <div class="tour-dates-table clearfix">
-                                <div class="city">
-                                    <h4 class="city-name">Brooklyn, NY</h4>
-                                </div>
-                                <div class="details no-ticket">
-                                    <span class="venue">StageOne Space</span>
-                                    <span class="lineup">
-                                        Claude VonStroke &#8211;
-                                        Justin Martin &#8211;
-                                        J. Phlip &#8211;
-                                        Kill Frenzy &#8211;
-                                        Christian Martin &#8211;
-                                        Justin Jay
-                                        + special surprise guests
-                                    </span>
-                                </div>
-                                <div class="tickets"></div>
-                            </div>
-                        </div>
+                    <section class="section no-border">
                         <div class="tour-dates-table-wrap major">
                             <div class="tour-date-box">31st Aug 2014</div>
                             <div class="tour-dates-table clearfix">
@@ -172,8 +140,10 @@
                                 <div class="tickets"></div>
                             </div>
                         </div>
+                        <h2 class="spatula-sandwich center">Tickets on Sale September 24th</h2>
 
                     </section>
+                    <section class="section">&nbsp;</section>
                     <section class="section clearfix extra-social">
                         <div class="social-links">
                             <a href="https://www.facebook.com/dirtybirdrecords" class="facebook"><span class="screen-reader-text">Facebook</span></a>
