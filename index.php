@@ -63,9 +63,11 @@
                             <span class="act">&#43; surprise guests!
                         </div>-->
                         <div class="details">
+                            12:00pm - 10:00pm<br />
                             August 17th<br />
                             StageOneSpace<br />
                             <span class="protocol">Brooklyn, NY</span><br />
+                            <span class="protocol">Free BBQ while supplies last!</span>
                         </div>
                         <div class="tickets">
                         </div>
