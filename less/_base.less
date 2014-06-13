@@ -31,6 +31,10 @@ body {
 	display: none !important;
 }
 
+.no-bottom-margin{
+  margin-bottom: -1em;
+}
+
 /** 
  * 2 Links
  */
@@ -70,7 +74,7 @@ h1, h2, h3 {
 
 h2 {
     font-family: @sans-serif-alt;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -80,6 +84,12 @@ p {
     //padding: 3px;
     .border-radius( 3px );
     text-shadow: fade( @dark-blue, 25% ) 0px 0px 1em;
+}
+
+.intro-text{
+  p{
+    font-size: 120%;
+  }
 }
 
 .center {
@@ -247,7 +257,7 @@ img {
 
 .burgerguy-bg{
   background: url("../images/burgerguy.png") no-repeat bottom right;
-  background-size: auto 100%;
+  background-size: 25% auto;
 }
 
 .tourlogo-bg{
@@ -582,4 +592,9 @@ a.dblogo-small {
      border-radius: 3px;
      border: 1px solid rgba(200, 200, 200, 0.2)
    }
+ }
+
+ img.logo{
+   width: 450px;
+   height: auto;
  }

@@ -20,8 +20,8 @@
 	<div id="container">
 	    <div id="container-inner">
             <div id="main" class="clearfix">
-                <header class="fivecol first" id="">
-                    <h1><img title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
+                <header class="" id="">
+                    <h1><img class="logo" title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
                 </header>
                 <!--<section class="section sevencol last " id="album-artwork">
                     <img alt="Album Artwork Front" src="images/artwork_front.jpg" title="Album Artwork Front" />
@@ -30,13 +30,13 @@
                         Listen to the album, watch videos and more! <br /> &#47;
                     </div>-->
                 <!--</section>-->
-                <div id="sidebar" class="fivecol first fix">
+                <div id="sidebar" class="fix">
 
-                    <section class="section burgerguy-bg">
-                        <div class="">
+                    <section class="section intro-text burgerguy-bg clearfix">
+                        <div class="ninecol first">
                             <p>Dirtybird is taking it's legendary BBQ party on the road! Do not miss what promises to be one of the most down to earth, fun parties of the year. There will be minimum fist pumping & maximum booty shaking so come have a great time outside with your friends.</p>
                             <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada.</p>
-                            <p>Line-ups are different in every city and include a few special guest surprises.</p>
+                            <p class="no-bottom-margin">Line-ups are different in every city and include a few special guest surprises.</p>
                         </div>
                     </section>
                     <h2 class="spatula-sandwich center">Tour Dates</h2>
@@ -184,10 +184,15 @@
                         </div>
                     </section>
                 </div>
-                <section class="section sevencol last " id="audio-preview">
-                    <p class="mobile-only">Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>
-                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21235376&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>                </section>
-                <section class="section background sevencol last " id="release-description">
+                <section class="section" id="audio-preview">
+                    <h2 class="spatula-sandwich center">dirtybird BBQ compilation</h2>
+
+                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21235376&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+                    <p class="center">Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>
+
+                </section>
+                <section class="section background" id="release-description">
                     <div class="background">
                     <p>The new dirtybird compilation is loaded with 11 great tunes I have been collecting for over 6 months. Most notably, the Shiba San "OKAY" record has absolutely been destroying every dance floor known to man. We have lots of big birds like Justin Martin, Catz ‘N Dogz & Justin Jay on this, plus a ton of great newcomers and friends making appearances.</p>
 
@@ -199,7 +204,7 @@
                     VonStroke</p>
                     </div>
                 </section>
-                <section class="section sevencol last">
+                <section class="section">
                     <div id="videos">
                         <div id="youtube_holder"></div>
                         <script>
@@ -234,7 +239,7 @@
                <!-- <section class="section sevencol last" id="merch">	
                     Merch
                 </section>-->
-                <section class="section sevencol last clearfix" id="mailing-list">
+                <section class="section clearfix" id="mailing-list">
                     <!-- Begin MailChimp Signup Form -->
                     <!--<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
 
@@ -455,7 +460,7 @@
                     </script>
                     <!--End mc_embed_signup-->
                 </section>
-                <section class="section sevencol no-border last clearfix">
+                <section class="section no-border clearfix">
                     <div class="social-links">
                         <a href="https://www.facebook.com/dirtybirdrecords" class="facebook"><span class="screen-reader-text">Facebook</span></a>
                         <a href="http://dirtybirdrecords.tumblr.com" class="tumblr"><span class="screen-reader-text">Tumblr</span></a>
