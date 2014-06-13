@@ -20,31 +20,36 @@
 	<div id="container">
 	    <div id="container-inner">
             <div id="main" class="clearfix">
-                <header class="" id="">
-                    <h1><img class="logo" title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
-                </header>
-                <!--<section class="section sevencol last " id="album-artwork">
-                    <img alt="Album Artwork Front" src="images/artwork_front.jpg" title="Album Artwork Front" />
-                    <p>Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>
-                    <!--<div class="more">
-                        Listen to the album, watch videos and more! <br /> &#47;
-                    </div>-->
-                <!--</section>-->
-                <div id="sidebar" class="fix">
+                <div class="min-height-viewport">
+                    <header class="" id="">
+                        <h1><img class="logo" title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
+                    </header>
+                    <!--<section class="section sevencol last " id="album-artwork">
+                        <img alt="Album Artwork Front" src="images/artwork_front.jpg" title="Album Artwork Front" />
+                        <p>Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>
+                        <!--<div class="more">
+                            Listen to the album, watch videos and more! <br /> &#47;
+                        </div>-->
+                    <!--</section>-->
 
-                    <section class="section intro-text burgerguy-bg clearfix">
-                        <div class="eightcol first">
-                            <p>Dirtybird is taking it's legendary BBQ party on the road! Do not miss what promises to be one of the most down to earth, fun parties of the year. There will be minimum fist pumping & maximum booty shaking so come have a great time outside with your friends.</p>
-                            <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada.</p>
-                            <p class="no-bottom-margin">Line-ups are different in every city and include a few special guest surprises.</p>
-                        </div>
-                    </section>
+                        <section class="section intro-text burgerguy-bg clearfix">
+                            <div class="eightcol first">
+                                <p>Dirtybird is taking it's legendary BBQ party on the road! Do not miss what promises to be one of the most down to earth, fun parties of the year. There will be minimum fist pumping & maximum booty shaking so come have a great time outside with your friends.</p>
+                                <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada.</p>
+                                <p class="no-bottom-margin">Line-ups are different in every city and include a few special guest surprises.</p>
+                            </div>
+                        </section>
+
+                </div>
+                <div>
                     <h2 class="spatula-sandwich center">Tour Dates</h2>
                     <section class="section no-border clearfix major-announce">
                         <div class="tourlogo-bg container-fill">
 
                         </div>
-                        <h4 class="city-name">Brooklyn, NY - 8/17/14</h4>
+                        <div class="major-announce-header protocol">
+                            Brooklyn, NY - 8/17/14
+                        </div>
                         <div class="headliners">
                             <div class="headliner">Claude VonStroke</div>
                             <div class="headliner">Justin Martin</div>
@@ -62,6 +67,8 @@
                         <div class="tickets">
                         </div>
                     </section>
+                </div>
+                <div>
                     <!--<section class="section pictures">
                         <?php /*
                             $pictures = array(
@@ -79,6 +86,9 @@
                             }
                         */ ?>
                     </section>-->
+
+                    <section class="section no-border"></section>
+
                     <section class="section no-border">
                         <div class="tour-dates-table-wrap major">
                             <div class="tour-date-box">31st Aug 2014</div>
@@ -140,7 +150,7 @@
                                 <div class="tickets"></div>
                             </div>
                         </div>
-                        <h2 class="spatula-sandwich center">Tickets on Sale September 24th</h2>
+                        <h2 class="spatula-sandwich center">Tickets on Sale June 24th</h2>
 
                     </section>
                     <section class="section">&nbsp;</section>
@@ -155,8 +165,6 @@
                     </section>
                 </div>
                 <section class="section" id="audio-preview">
-                    <h2 class="spatula-sandwich center">dirtybird BBQ compilation</h2>
-
                     <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/21235376&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
                     <p class="center">Buy the album on <a href="http://smarturl.it/dirtybirdBBQ" target="_blank">iTunes</a> or <a href="http://j.mp/1c4zZcc" target="_blank">Beatport</a></p>

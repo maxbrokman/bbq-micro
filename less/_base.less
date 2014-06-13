@@ -32,7 +32,11 @@ body {
 }
 
 .no-bottom-margin{
-  margin-bottom: -1em;
+  margin-bottom: 0;
+}
+
+.min-height-viewport{
+  min-height: 100vh;
 }
 
 /** 
@@ -257,7 +261,7 @@ img {
 
 .burgerguy-bg{
   background: url("../images/burgerguy.png") no-repeat bottom right;
-  background-size: 31% auto;
+  background-size: 33% auto;
 }
 
 .tourlogo-bg{
@@ -308,6 +312,10 @@ img {
     background: @block-color;
     text-align: center;
     .border-radius( 3px );
+    .major-announce-header{
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
     .headliners{
         font-family: @sans-serif-alt;
         font-weight: 400;
