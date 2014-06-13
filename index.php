@@ -143,7 +143,7 @@
                                         J. Phlip &#8211;
                                         Kill Frenzy &#8211;
                                         Christian Martin &#8211;
-                                        Worth
+                                        Worthy
                                         + special surprise guests
                                     </span>
                                 </div>
