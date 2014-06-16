@@ -552,8 +552,11 @@ body {
 .no-bottom-margin {
   margin-bottom: 0;
 }
-.min-height-viewport {
-  min-height: 100vh;
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
 }
 /** 
  * 2 Links
@@ -673,6 +676,10 @@ nav {
 /** 
  * 5 Etc.
  */
+.top-bar {
+  background: #031529;
+  padding: 6px 0;
+}
 header {
   text-align: center;
 }
@@ -722,7 +729,7 @@ img {
   background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4));
   background-image: linear-gradient(top, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4));
 }
-#main {
+.wrap {
   width: 95%;
   margin: 0 auto;
   position: relative;
@@ -800,6 +807,7 @@ img {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  font-size: 1.5em;
 }
 .major-announce .major-announce-header {
   font-size: 2em;
@@ -809,17 +817,21 @@ img {
   font-family: 'Conv_protocol', 'PT Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 2.2em;
-  margin-bottom: 1em;
 }
 .major-announce .headliners .special {
   font-weight: 700;
 }
 .major-announce .lineup {
   font-size: 1.2em;
-  margin-bottom: 1em;
 }
 .major-announce .act {
   white-space: nowrap;
+}
+.major-announce .act:last-child:after {
+  content: "";
+}
+.major-announce .act:after {
+  content: " – ";
 }
 .major-announce .details {
   font-size: 1.2em;
@@ -870,6 +882,9 @@ img {
 }
 .tour-dates-table .details .venue {
   color: #fffb6c;
+}
+.tour-dates-table .details .headliners {
+  color: white;
 }
 .tour-dates-table .details .lineup {
   color: rgba(255, 255, 255, 0.6);
@@ -971,14 +986,42 @@ a.dblogo-small:after {
 a.dblogo-small:hover:after {
   opacity: 1;
 }
+a.dblogo-vsmall {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  background: url('../images/dblogo.png') no-repeat;
+  background-size: 32px;
+  background-position: top;
+}
+a.dblogo-vsmall:after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url('../images/dblogo.png') no-repeat;
+  background-size: 32px;
+  background-position: bottom;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+a.dblogo-vsmall:hover:after {
+  opacity: 1;
+}
 /** 
  * 6 Social
  */
 .extra-social {
   display: none;
-}
-.social-links {
-  text-align: center;
 }
 .social-links a {
   display: inline-block;
@@ -1014,6 +1057,12 @@ a.dblogo-small:hover:after {
 }
 .social-links a.instagram:before {
   content: '\f215';
+}
+.social-links.small a {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  margin-left: -2px;
 }
 /** 
  * 7 mailchimp form
@@ -1177,6 +1226,9 @@ Stylesheet: Desktop stylesheet
   .mobile-only {
     display: none;
   }
+  .min-height-viewport {
+    min-height: 100vh;
+  }
   /** 
  * Nav 
  */
@@ -1192,7 +1244,7 @@ Stylesheet: Desktop stylesheet
   /** 
  * Layout
  */
-  #main {
+  .wrap {
     max-width: 960px;
     text-align: left;
   }

@@ -18,9 +18,21 @@
 </head>
 <body>
 	<div id="container">
+        <section class="top-bar">
+            <div class="wrap clearfix">
+                <span class="social-links small">
+                    <a href="https://www.facebook.com/dirtybirdrecords" class="facebook"><span class="screen-reader-text">Facebook</span></a>
+                    <a href="http://dirtybirdrecords.tumblr.com" class="tumblr"><span class="screen-reader-text">Tumblr</span></a>
+                    <a href="http://www.youtube.com/user/dirtybirdrecords" class="youtube"><span class="screen-reader-text">Youtube</span></a>
+                    <a href="https://soundcloud.com/dirtybirdrecords" class="soundcloud"><span class="screen-reader-text">Soundcloud</span></a>
+                    <a href="http://instagram.com/dirtybirdrecords" class="instagram"><span class="screen-reader-text">Instagram</span></a>
+                </span>
+            </div>
+        </section>
 	    <div id="container-inner">
-            <div id="main" class="clearfix">
+            <div id="main" class="clearfix wrap">
                 <div class="min-height-viewport">
+
                     <header class="" id="">
                         <h1><img class="logo" title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
                     </header>
@@ -42,28 +54,34 @@
 
                 </div>
                 <div>
-                    <h2 class="spatula-sandwich center">Tour Dates</h2>
                     <section class="section no-border clearfix major-announce">
                         <div class="tourlogo-bg container-fill">
 
                         </div>
-                        <div class="major-announce-header protocol">
-                            Brooklyn, NY - 8/17/14
+                        <div class="headliners">
+                            <div class="headliner">Claude VonStroke – Justin Martin</div>
+                        </div>
+                        <div class="lineup">
+                            <span class="act">J. Phlip</span>
+                            <span class="act">Kill Frenzy</span>
+                            <span class="act">Christian Martin</span>
+                            <span class="act">Justin Jay</span>
+                            <span class="act">Worthy</span>
                         </div>
                         <div class="headliners">
-                            <div class="headliner">Claude VonStroke</div>
-                            <div class="headliner">Justin Martin</div>
-                            <div class="headliner">J. Phlip, Kill Franzy</div>
-                            <div class="headliner">Christian Martin, Justin Jay</div>
-                            <div class="headliner special">+special surprise guests!</div>
+                            <span class="headliner special">+ Special Surprise Guests</span>
                         </div>
                         <div class="details">
-                            12:00pm - 10:00pm<br />
-                            August 17th<br />
-                            StageOneSpace<br />
-                            <span class="protocol">Brooklyn, NY</span><br />
                             <span class="protocol">Free BBQ while supplies last!</span>
                         </div>
+                        <div class="lineup">
+                            <span class="act">Brookyln, NY</span>
+                            <span class="act">Detroit, MI</span>
+                            <span class="act">Toronto, ON</span>
+                            <span class="act">San Francisco, CA</span>
+                            <span class="act">Los Angeles, CA</span>
+                        </div>
+                        <div class="details"><span class="small">Local lineups below</span></div>
                         <div class="tickets">
                         </div>
                     </section>
@@ -91,6 +109,26 @@
 
                     <section class="section no-border">
                         <div class="tour-dates-table-wrap major">
+                            <div class="tour-date-box"><span class="protocol">Next:</span> 17th Aug 2014 </div>
+                            <div class="tour-dates-table clearfix">
+                                <div class="city">
+                                    <h4 class="city-name">Brooklyn, NY</h4>
+                                </div>
+                                <div class="details no-ticket">
+                                    <span class="venue">Verboten</span>
+                                    <span class="lineup">
+                                        Claude VonStroke &#8211;
+                                        Justin Martin &#8211;
+                                        Kill Frenzy &#8211;
+                                        Christian Martin &#8211;
+                                        Justin Jay
+                                        + special surprise guests
+                                    </span>
+                                </div>
+                                <div class="tickets"></div>
+                            </div>
+                        </div>
+                        <div class="tour-dates-table-wrap major">
                             <div class="tour-date-box">31st Aug 2014</div>
                             <div class="tour-dates-table clearfix">
                                 <div class="city">
@@ -102,7 +140,6 @@
                                         Claude VonStroke &#8211;
                                         Justin Martin &#8211;
                                         J. Phlip &#8211;
-                                        Kill Frenzy &#8211;
                                         Christian Martin
                                     </span>
                                 </div>
@@ -121,9 +158,7 @@
                                         Claude VonStroke &#8211;
                                         Justin Martin &#8211;
                                         J. Phlip &#8211;
-                                        Kill Frenzy &#8211;
-                                        Christian Martin &#8211;
-                                        Justin Jay
+                                        Christian Martin
                                     </span>
                                 </div>
                                 <div class="tickets"></div>
@@ -150,12 +185,24 @@
                                 <div class="tickets"></div>
                             </div>
                         </div>
+                        <div class="tour-dates-table-wrap major">
+                            <div class="tour-date-box">TBA Nov 2014 </div>
+                            <div class="tour-dates-table clearfix">
+                                <div class="city">
+                                    <h4 class="city-name">Los Angeles, CA</h4>
+                                </div>
+                                <div class="details no-ticket">
+                                    <span class="venue">TBA</span>
+                                </div>
+                                <div class="tickets"></div>
+                            </div>
+                        </div>
                         <h2 class="spatula-sandwich center">Tickets on Sale June 24th</h2>
 
                     </section>
                     <section class="section">&nbsp;</section>
                     <section class="section clearfix extra-social">
-                        <div class="social-links">
+                        <div class="social-links center">
                             <a href="https://www.facebook.com/dirtybirdrecords" class="facebook"><span class="screen-reader-text">Facebook</span></a>
                             <a href="http://dirtybirdrecords.tumblr.com" class="tumblr"><span class="screen-reader-text">Tumblr</span></a>
                             <a href="http://www.youtube.com/user/dirtybirdrecords" class="youtube"><span class="screen-reader-text">Youtube</span></a>
@@ -439,7 +486,7 @@
                     <!--End mc_embed_signup-->
                 </section>
                 <section class="section no-border clearfix">
-                    <div class="social-links">
+                    <div class="social-links center">
                         <a href="https://www.facebook.com/dirtybirdrecords" class="facebook"><span class="screen-reader-text">Facebook</span></a>
                         <a href="http://dirtybirdrecords.tumblr.com" class="tumblr"><span class="screen-reader-text">Tumblr</span></a>
                         <a href="http://www.youtube.com/user/dirtybirdrecords" class="youtube"><span class="screen-reader-text">Youtube</span></a>

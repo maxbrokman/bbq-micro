@@ -35,8 +35,12 @@ body {
   margin-bottom: 0;
 }
 
-.min-height-viewport{
-  min-height: 100vh;
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
 }
 
 /** 
@@ -176,6 +180,10 @@ nav {
  * 5 Etc.
  */
 
+.top-bar{
+  background: @dark-blue;
+  padding: 6px 0;
+}
  
 #header {
 
@@ -223,7 +231,7 @@ img {
     .stop-gradient( rgba(0,0,0,0), 70%, rgba(0,0,0,0.4) );
 }
 
-#main {
+.wrap {
 	width: 95%;
 	margin: 0 auto;
 	//text-align: center;
@@ -312,6 +320,7 @@ img {
     background: @block-color;
     text-align: center;
     .border-radius( 3px );
+    font-size: 1.5em;
     .major-announce-header{
       font-size: 2em;
       margin-bottom: 1em;
@@ -320,7 +329,6 @@ img {
         font-family: @sans-serif-alt;
         font-weight: 400;
         font-size: 2.2em;
-        margin-bottom: 1em;
         .headliner{
         }
         .special{
@@ -329,10 +337,17 @@ img {
     }
     .lineup {
         font-size: 1.2em;
-        margin-bottom: 1em;
     }
     .act {
         white-space: nowrap;
+        &:last-child{
+          &:after{
+            content: "";
+          }
+        }
+        &:after{
+          content: " – ";
+        }
     }
     .details {
         font-size: 1.2em;
@@ -385,6 +400,9 @@ img {
 		.venue {
 		    color: @beige-three;
 		}
+        .headliners{
+          color: white;
+        }
 		.lineup {
 		    color: fade( white, 60% );
 		}
@@ -482,6 +500,35 @@ a.dblogo-small {
 	}
 }
 
+a.dblogo-vsmall{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  background: url('../images/dblogo.png') no-repeat;
+  background-size: 32px;
+  background-position: top;
+  &:after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: url('../images/dblogo.png') no-repeat;
+    background-size: 32px;
+    background-position: bottom;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition:    opacity 0.2s;
+    -o-transition:      opacity 0.2s;
+    transition:			opacity 0.2s;
+  }
+  &:hover:after {
+    opacity: 1;
+  }
+}
+
 /** 
  * 6 Social
  */
@@ -491,7 +538,6 @@ a.dblogo-small {
 }
 
 .social-links {
-	text-align: center;
 	a {
 		display: inline-block;
 		width: 32px;
@@ -504,7 +550,7 @@ a.dblogo-small {
 		color: @beige-three;
 		&:hover {
 		    color: @light-blue;
-		}
+        }
 		&.facebook {
 			&:before {
 				content: '\f203';
@@ -541,6 +587,14 @@ a.dblogo-small {
 		    }
 		}
 	}
+    &.small {
+      a {
+        width: 16px;
+        height: 16px;
+        font-size: 16px;
+        margin-left: -2px;
+      }
+    }
 }
 
 /** 
