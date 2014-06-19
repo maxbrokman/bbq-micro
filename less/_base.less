@@ -190,9 +190,13 @@ nav {
 }
 
 header {
+    margin: 1em 0;
     text-align: center;
     img {
         .radial( @dark-blue );
+    }
+    h1{
+      display: inline;
     }
 }
 
@@ -423,12 +427,18 @@ img {
 }
 
 .ticket-link {
+    display: inline-block;
+    width: 100%;
     .border-radius( 3px );
-    border: 1px dotted fade( @beige-three, 35% );
-    padding: 3px 3px 3px 5px;
-    background: fade( white, 10% );
+    border: 1px solid fade( @beige-three, 35% );
+    padding: 6px;
+    font-size: 18px;
+    text-align: center !important;
+    //background: fade( white, 10% );
+    background: url("../images/burgerguy.png") no-repeat bottom right;
+    background-size: auto 100%;
     &:hover {
-        background: fade( white, 15% );
+        border: 1px solid @beige-three;
     }
 }
 

@@ -31,10 +31,12 @@
         </section>
 	    <div id="container-inner">
             <div id="main" class="clearfix wrap">
-                <div class="min-height-viewport">
+                <div class="">
 
                     <header class="" id="">
+                        <img src="images/beer200.png" alt="Beer"/>
                         <h1><img class="logo" title="Tour Logo" alt="Dirtybird BBQ Tour" src="images/tourlogo.png"><span class="screen-reader-text">Dirtybird BBQ Tour</span></h1>
+                        <img src="images/beer200flip.png" alt="Beer"/>
                     </header>
                     <!--<section class="section sevencol last " id="album-artwork">
                         <img alt="Album Artwork Front" src="images/artwork_front.jpg" title="Album Artwork Front" />
@@ -134,7 +136,7 @@
                                 <div class="city">
                                     <h4 class="city-name">Detroit, MI</h4>
                                 </div>
-                                <div class="details no-ticket">
+                                <div class="details">
                                     <span class="venue">Masonic Temple Lot</span>
                                     <span class="lineup">
                                         Claude VonStroke &#8211;
@@ -143,7 +145,9 @@
                                         Christian Martin
                                     </span>
                                 </div>
-                                <div class="tickets"></div>
+                                <div class="tickets">
+                                    <a class="ticket-link" href="http://tktwb.tw/1oBtljr">Tickets</a>
+                                </div>
                             </div>
                         </div>
                         <div class="tour-dates-table-wrap major">
@@ -152,7 +156,7 @@
                                 <div class="city">
                                     <h4 class="city-name">Toronto, ON</h4>
                                 </div>
-                                <div class="details no-ticket">
+                                <div class="details">
                                     <span class="venue">Sherbourne Common</span>
                                     <span class="lineup">
                                         Claude VonStroke &#8211;
@@ -161,7 +165,9 @@
                                         Christian Martin
                                     </span>
                                 </div>
-                                <div class="tickets"></div>
+                                <div class="tickets">
+                                    <a class="ticket-link" href="http://www.ticketweb.ca/t3/sale/SaleEventDetail?dispatch=loadSelectionData&eventId=5074575&pl=embrace">Tickets</a>
+                                </div>
                             </div>
                         </div>
                         <div class="tour-dates-table-wrap major">
