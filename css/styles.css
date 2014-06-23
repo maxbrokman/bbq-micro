@@ -1064,6 +1064,9 @@ a.dblogo-vsmall:hover:after {
 .social-links a.tumblr:before {
   content: '\f214';
 }
+.social-links a.twitter:before {
+  content: '\f202';
+}
 .social-links a.instagram:before {
   content: '\f215';
 }
@@ -1130,6 +1133,21 @@ a.dblogo-vsmall:hover:after {
 img.logo {
   width: 450px;
   height: auto;
+}
+.tour-logo-jaunty-angle {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  width: 225px;
+  height: 158px;
+  background: url("../images/tourlogo.png") no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.1;
+  -webkit-transform: rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
 }
 @media only screen and (min-width: 768px) {
   /******************************************************************
