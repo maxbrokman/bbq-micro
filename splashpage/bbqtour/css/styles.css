@@ -778,6 +778,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 .color-correction-wrapper {
   background: rgba(14, 106, 165, 0.1);
