@@ -18,7 +18,7 @@
     <section class="section intro-text burgerguy-bg clearfix">
         <div class="eightcol first">
             <p>Dirtybird is taking it's legendary BBQ party on the road! Do not miss what promises to be one of the most down to earth, fun parties of the year. There will be minimum fist pumping & maximum booty shaking so come have a great time outside with your friends.</p>
-            <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada.</p>
+            <p>Brooklyn, Detroit, Los Angeles, Toronto, and San Francisco will all get to experience the good times that were already had in Miami this year in March. Claude VonStroke, Justin Martin and the whole crew will entertain on the decks with their signature bass-driven brand of house music while chef Grillson retains his title as the hardest working man in show business cooking thousands of burgers, dogs and carne asada. </p>
             <p class="no-bottom-margin">Line-ups are different in every city and include a few special guest surprises.</p>
         </div>
     </section>
@@ -30,12 +30,14 @@
 
         </div>
         <div class="headliners">
-            <div class="headliner">Claude VonStroke – Justin Martin</div>
+            <div class="headliner"><br>Claude VonStroke – Justin Martin</div>
         </div>
         <div class="lineup">
+    		<span class="act">Eats Everything</span>
             <span class="act">J. Phlip</span>
             <span class="act">Kill Frenzy</span>
-            <span class="act">Christian Martin</span>
+            <span >Christian Martin</span>
+            <br>
             <span class="act">Justin Jay</span>
             <span class="act">Worthy</span>
             <span class="act">Ardalan</span>
@@ -54,6 +56,7 @@
             <span class="act">Los Angeles, CA</span>
         </div>
         <div class="details"><span class="small">Local lineups below</span></div>
+        <div><a href="http://www.residentadvisor.net/to/dirtybirdbbq" target="_blank">Tickets on Resident Advisor</a></div>
         <div class="tickets">
         </div>
     </section>
@@ -83,13 +86,13 @@
         <div class="tour-dates-table-wrap major">
             <div class="tour-logo-jaunty-angle"></div>
 
-            <div class="tour-date-box"><span class="protocol">Next:</span> 17th Aug 2014 / 4:00pm - 10:00pm </div>
+            <div class="tour-date-box"><span class="protocol">Next:</span> 17th Aug 2014 / 3:00pm - 10:00pm </div>
             <div class="tour-dates-table clearfix">
                 <div class="city">
                     <h4 class="city-name">Brooklyn, NY</h4>
                 </div>
                 <div class="details">
-                    <span class="venue">Verboten</span>
+                    <span class="venue">50 Kent Ave. Brooklyn, NY 11249</span>
                         <span class="lineup">
                             Claude VonStroke &#8211;
                             Justin Martin &#8211;
@@ -100,7 +103,7 @@
                             + special surprise guests
                         </span>
                 </div>
-                <div class="tickets"><a class="ticket-link" href="http://www.ticketfly.com/purchase/event/613399">Tickets</a></div>
+                <div class="tickets"><a class="ticket-link" href="http://www.ticketfly.com/purchase/event/613399" target="_blank">Tickets</a></div>
             </div>
         </div>
         <div class="tour-dates-table-wrap major">
@@ -119,12 +122,12 @@
                         </span>
                 </div>
                 <div class="tickets">
-                    <a class="ticket-link" href="http://tktwb.tw/1oBtljr">Tickets</a>
+                    <a class="ticket-link" href="http://tktwb.tw/1oBtljr" target="_blank">Tickets</a>
                 </div>
             </div>
         </div>
         <div class="tour-dates-table-wrap major">
-            <div class="tour-date-box">07th Sept 2014 / 1:30pm</div>
+            <div class="tour-date-box">07th Sept 2014 / 1:30pm - 9.30pm</div>
             <div class="tour-dates-table clearfix">
                 <div class="city">
                     <h4 class="city-name">Toronto, ON</h4>
@@ -132,14 +135,15 @@
                 <div class="details">
                     <span class="venue">Sherbourne Common</span>
                         <span class="lineup">
-                            Claude VonStroke &#8211;
+                        	Claude VonStroke &#8211;
                             Justin Martin &#8211;
                             J. Phlip &#8211;
-                            Christian Martin
+                            Christian Martin &#8211;
+                            Ardalan
                         </span>
                 </div>
                 <div class="tickets">
-                    <a class="ticket-link" href="http://www.ticketweb.ca/t3/sale/SaleEventDetail?dispatch=loadSelectionData&eventId=5074575&pl=embrace">Tickets</a>
+                    <a class="ticket-link" href="http://www.ticketweb.ca/t3/sale/SaleEventDetail?dispatch=loadSelectionData&eventId=5074575&pl=embrace" target="_blank">Tickets</a>
                 </div>
             </div>
         </div>
@@ -159,9 +163,14 @@
                         Worthy
                         + special surprise guests
                     </span>
+                    <span class="lineup">
+                      <br><br>Limited Edition San Francisco Pre-Sale Ticket / Merch Bundle
+                    </span>
                 </div>
                 <div class="tickets">
-                    <a class="ticket-link" href="http://www.ticketfly.com/purchase/event/614877?utm_medium=bks">Tickets</a>
+                    <a class="ticket-link" href="http://www.ticketfly.com/purchase/event/614877?utm_medium=bks" target="_blank"><span style="font-size:16px">Tickets</span></a>
+                <br><br><br>
+                    <a class="ticket-link" href="http://merch.dirtybirdrecords.com/dirtybird-bbq-sf-pre-sale-ticket-bundle" target="_blank"><span style="font-size:16px">Ticket Bundle</span></a>
                 </div>
             </div>
         </div>
@@ -178,7 +187,6 @@
                     <span class="lineup">
                         Claude VonStroke &#8211;
                         Justin Martin &#8211;
-                        Eats Everything &#8211;
                         J. Phlip &#8211;
                         Christian Martin
                         + More
